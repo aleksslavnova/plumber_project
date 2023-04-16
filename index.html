@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<script src="carousel.js"></script>
+
+		<!-- Bootstrap CSS -->
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+		/>
+		<title>Electric select</title>
+	</head>
+
+	<body>
+		<div class="firstBox">
+			<nav class="navbar" aria-label="Light offcanvas navbar">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasNavbarLight"
+						aria-controls="offcanvasNavbarLight"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="offcanvas offcanvas-end"
+						tabindex="-1"
+						id="offcanvasNavbarLight"
+						aria-labelledby="offcanvasNavbarLightLabel"
+					>
+						<div class="offcanvas-header">
+							<h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">
+								Offcanvas
+							</h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Blog</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container col-xxl-8 px-4 py-5">
+				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+					<div class="col-10 col-sm-8 col-lg-6">
+						<img
+							src="./images/header-group-appliances.png"
+							class="d-block mx-lg-auto img-fluid"
+							alt="Bootstrap Themes"
+							width="700"
+							height="500"
+							loading="lazy"
+						/>
+					</div>
+					<div class="col-lg-6">
+						<h1 class="display-5 fw-bold lh-1 mb-3 fontHeader">
+							Electric select
+						</h1>
+						<p class="lead">best home appliances</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="secondBox">
+			<div class="electricCarousel">
+				<div class="boxImg"><img src="./images/gallery-photo-1.jpg" alt=""></div>
+				<div class="boxImg"><img src="./images/gallery-photo-2.jpg" alt=""></div>
+				<div class="boxImg"><img src="./images/gallery-photo-3.jpg" alt=""></div>
+				<div class="boxImg"><img src="./images/left-photo.jpg" alt=""></div>
+				<div class="boxImg"><img src="./images/right-photo.jpg" alt=""></div>
+				<div class="boxImg"><img src="./images/square-photo.jpg" alt=""></div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+		></script>
+		<script>
+			$(document).ready(function () {
+				$(".electricCarousel").slick({
+					infinite: true,
+					slidesToShow: 3,
+					slidesToScroll: 3,
+				});
+			});
+		</script>
+	</body>
+</html>

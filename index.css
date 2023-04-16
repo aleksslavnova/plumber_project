@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Emblema+One&display=swap");
+
+.fontHeader {
+	color: #1d81cc;
+	font-family: "Emblema One", cursive;
+}
+.firstBox {
+	background-color: #f5c8cf;
+}
+.secondBox {
+	background-color: #1d81cc;
+	padding: 50px;
+}
+
+.boxImg {
+	width: 100px;
+	background-color: #1d81cc;
+	margin: 10px;
+}
+.boxImg img {
+	width: 100%;
+}
